@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface CommonAnnotation {
+public @interface FuncDesc {
     String name();
 
     String desc();
