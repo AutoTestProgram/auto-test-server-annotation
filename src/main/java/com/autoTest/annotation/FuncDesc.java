@@ -14,4 +14,6 @@ public @interface FuncDesc {
     String name();
 
     String desc();
+
+    String modName();
 }
